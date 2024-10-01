@@ -1,0 +1,11 @@
+/* Animación de parpadeo */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Clase que se aplicará a las celdas en caso de empate */
+.cell.blink {
+    animation: blink 0.5s infinite; /* Cambia 0.5s a la duración que prefieras */
+}
